@@ -1,0 +1,10 @@
+{
+  "name": "wasp22",
+  "planet": "WASP-22 b",
+  "tic": 257567854,
+  "sectors": [4, 105, 106, 107],
+  "ephemeris": {"t0": 2456189.815634, "per": 3.532729419,
+                "source": "weighted fit to the 14 refereed 2006-2018 times (Southworth+2016 Table 7, Ivshina & Winn 2022 TESS S4)"},
+  "guess": {"p": 0.10, "a": 8.2, "b": 0.2},
+  "lc_dir": "data/timing/wasp22"
+}

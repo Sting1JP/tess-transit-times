@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, and also Stinga (2026), Research Notes of the AAS, 10, 297."
+type: software
+title: "tess-transit-times: Mid-Transit Times of Known Planets from TESS Light Curves"
+version: 0.5.0
+doi: 10.5281/zenodo.23875330
+date-released: 2026-11-02
+authors:
+  - family-names: Stinga
+    given-names: Stefano Ivan
+    affiliation: Independent researcher
+    orcid: "https://orcid.org/0009-0005-3860-3944"
+    email: stefano@stinga.jp
+repository-code: "https://github.com/Sting1JP/tess-transit-times"
+license: MIT
+abstract: >-
+  A Python tool (timing.py) that measures the mid-transit times of a known transiting planet in TESS SPOC 2-min
+  or TESS-SPOC full-frame-image light curves. It keeps only transits with complete coverage, fits one
+  limb-darkened transit shape to all of them, then fits each mid-time with the shape fixed, with errors scaled
+  for excess and red noise. The timing.py in version 0.5.0 is the code used for the TESS transit times of
+  WASP-22 b (Stinga 2026, Research Notes of the AAS, 10, 297). It includes a light-curve download helper, an offline
+  self-test, a Monte Carlo check of the error bars and the published WASP-22 b times as a known answer.
+keywords:
+  - exoplanets
+  - transit timing
+  - transit times
+  - ephemerides
+  - TESS
+  - light curves
+  - hot Jupiters
+references:
+  - type: article
+    title: "TESS Transit Times from 2026 Do Not Confirm the Reported Orbital Decay of WASP-22 b"
+    authors:
+      - family-names: Stinga
+        given-names: Stefano Ivan
+    journal: "Research Notes of the AAS"
+    volume: 10
+    issue: 10
+    start: 297
+    year: 2026
+    doi: 10.3847/2515-5172/aeb5e5

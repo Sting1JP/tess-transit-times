@@ -1,0 +1,27 @@
+timing.py 0.5, 2026-10-15T22:24:10
+target wasp22 (WASP-22 b), TIC 257567854
+reference ephemeris: T0 = 2456189.815634, P = 3.532729419 (weighted fit to the 14 refereed 2006-2018 times (Southworth+2016 Table 7, Ivshina & Winn 2022 TESS S4))
+files:
+  257567854_s0004_spoc-2min_lc.fits: sector 4, cadence 120 s, 14738 good points, TIMESYS TDB
+  257567854_s0105_spoc-2min_lc.fits: sector 105, cadence 120 s, 15106 good points, TIMESYS TDB
+  257567854_s0106_spoc-2min_lc.fits: sector 106, cadence 120 s, 12694 good points, TIMESYS TDB
+  257567854_s0107_spoc-2min_lc.fits: sector 107, cadence 120 s, 14568 good points, TIMESYS TDB
+shape fit (all complete transits together):
+  tc_ref = 2461227.486912159
+  n_ref = 1426.0
+  per = 3.5327289636625268
+  p = 0.09901667805610953
+  a = 8.680807414661803
+  b = 0.062013635039559055
+  q1 = 0.24958174515830026
+  q2 = 0.20690972632823015
+  u1 = 0.20673657188556654
+  u2 = 0.29284499818913134
+  chi2 = 5732.304766960266
+  npts = 6059
+  ntransits = 19
+  t14 = 0.14252353059641842
+  fit_status = 3
+  fit_nfev = 23
+transits: 25 windows, 19 timed, 6 skipped (see times.csv)
+median error 59 s, median red-noise factor 1.03
